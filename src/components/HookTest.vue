@@ -1,12 +1,12 @@
 
-<template>
+<template >
   <note>Title</note>
   <p>{{title}}</p>
   <p> height:{{height}}</p>
   <p>width: {{width}} </p>
 </template>
 
-<script >
+<script setup >
 import {useTitle} from './useTitle';
 import {useWindowSize} from './useWindowSize';
 
